@@ -8,7 +8,13 @@
     <title>Raquel MakeUp</title>
 
     <!--Custom style-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"/>
+
+    <!--Swiper-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/8e77d3be27.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -16,7 +22,7 @@
     <header>
         <a href="#" id="logo">Raquel<span id="logo-span">MakeUp</span></a>
 
-        <div id="menu-div">
+        <!-- <div id="menu-div">
             <ul id="menu">
                 <li><a href="#home" class="menu-item">Home</a></li>
                 <li><a href="#about" class="menu-item">Sobre</a></li>
@@ -24,7 +30,7 @@
                 <li><a href="#testimonial" class="menu-item">Depoimentos</a></li>
                 <li><a href="#contact" class="menu-item">Contato</a></li>
             </ul>
-        </div>
+        </div> -->
 
         <div class="divisor"></div>
     </header>
@@ -45,7 +51,7 @@
 
                 <p class="text">Maquiagens para casamentos, festas de debutantes e para o dia a dia.</p>
 
-                <a href="#" id="book">Agendar um horário</a>
+                <a href="#" class="book">Agendar um horário</a>
             </div>
 
             
@@ -54,7 +60,7 @@
         <section id="about" class="section">
             <div id="imageAbout">
                 <img src="img/about_clipped.jpg" alt="Maquiadora Raquel Nicácio">
-                <div></div>
+                <div></div> <!--Sombra-->
             </div>
             <div class="content">
                 <h1 class="title">Sobre</h1>
@@ -63,12 +69,76 @@
                 <p class="text">A 2 anos quis fazer algo para ocupar a mente, e um curso de maquiadora foi a escolha perfeita. Começando do zero, foram várias as dificuldades. A escassez de equipamentos, a falta de experiência e a necessidade de atrair clientes foram superadas, e logo, meu sonho se realizou.</p>
                 <p class="text">Trabalhei como maquiadora durante um ano e meio, atendendo a amigas para festas, desfiles, ou mesmo para o dia-a-dia.</p>
                 <p class="text">Tudo mudou, porém, quando decidi abandonar tudo e sair de minha terra natal para tentar uma nova vida em São Paulo, e pretendo continuar trazendo sorrisos as pessoas com meu talento!</p>
+                <div class="divisor"></div>
+        </section>
+
+        <section id="testmonial" class="section">
+            <div class="content">
+                <h1 class="title">Depoimentos de clientes anteriores</h1>
+            </div>
+
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <blockquote class="card">
+                            <p class="cardText"><span>&quot;</span>Profissional muito simpática, que trabalha com produtos de qualidade, usa ótimas tecnicas de maquiagem e atende a todas as idades. Além disso é prestativa, pontual e seu atendimento é ótimo.</p>
+                            <cite class="cardName">
+                                - Hellen
+                            </cite>
+                        </blockquote>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <blockquote class="card">
+                            <p class="cardText"><span>&quot;</span>O trabalho é perfeito! As makes são uma mais linda que a outra. Atendimento excelente!</p>
+                            <cite class="cardName">
+                                - Eduarda
+                            </cite>
+                        </blockquote>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <blockquote class="card">
+                            <p class="cardText"><span>&quot;</span>O atendimento é muito bom, tem muita paciência e fez tudo impecável. Eu simplesmente amei! Além de eu estar com muita pressa na hora e ter acabado a tempo, fiquei me achando super linda, levantou muito minha autoestima.</p>
+                            <cite class="cardName">
+                                - Andressa
+                            </cite>
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="divisor2"></div>
+        </section>
+        
+        <section id="contact" class="section">
+            <div class="content">
+                <h1 class="title">Entre em contato!</h1>
+                <p class="text">Entre em contato para tirar suas dúvidas, consultar preços e agendar um horário.</p>
+                <a href="" class="book" id="contatar"><i class="fab fa-whatsapp"></i>Entrar em contato</a>
+            </div>
+            
+            <div id="contactInfo">
+                <p><i class="fas fa-phone-alt"></i> 11 98322-5214 </p>
+                <p><i class="fas fa-map-marker-alt"></i> Guarulhos, São Paulo</p>
+            </div>
+            <div class="divisor2"></div>
         </section>
     </main>
 
     <footer>
-
+        <a href="#home">Raquel<span>MakeUp</span></a>
+        <div id="redes">
+            <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+        </div>
     </footer>
-    
+
+    <!--Swiper-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!--My script-->
+    <script src="main.js"></script>
 </body>
 </html>
