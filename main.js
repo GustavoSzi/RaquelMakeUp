@@ -5,4 +5,10 @@ const swiper = new Swiper('.swiper-container', {
     pagination: {
         el: '.swiper-pagination',
       },
+      breakpoints: {
+        960 :{
+          slidesPerView: 2,
+          spaceBetween: 20
+        },
+      }
 })
